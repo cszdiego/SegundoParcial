@@ -37,34 +37,33 @@ buttons.forEach(button => {
 
         try {
             if (button.innerHTML === "Eliminar de Mi Lista") {
-                // Obtener los productos actuales para encontrar el _id
                 const response = await fetch("http://localhost:3001/api/products");
                 const products = await response.json();
 
-                // Buscar el producto en la base de datos por nombre (o mejor aún, por otro dato si fuera posible)
-                const productToDelete = products.find(prod => prod.name === selectedProduct.name);
+                const productInDb = products.find(prod => 
+                    prod.name === selectedProduct.name &&
+                    prod.precio === selectedProduct.precio
+                );
 
-                if (!productToDelete) {
-                    alert("Producto no encontrado en la base de datos.");
+                if (!productInDb || !productInDb._id) {
+                    alert("No se encontró el producto en la base de datos.");
                     return;
                 }
 
-                // Ahora sí hacemos la petición DELETE
-                const deleteResponse = await fetch(`http://localhost:3001/api/products/${productToDelete._id}`, {
+                const deleteResponse = await fetch(`http://localhost:3001/api/products/${productInDb._id}`, {
                     method: "DELETE",
                 });
 
                 if (deleteResponse.ok) {
-                    alert(`Producto ${selectedProduct.name} eliminado de Mi Lista.`);
+                    alert(`Producto "${selectedProduct.name}" eliminado de Mi Lista.`);
                     button.textContent = "Agregar a Mi Lista";
                 } else {
                     alert(`Error al eliminar el producto: ${deleteResponse.statusText}`);
                 }
 
-                return; // Salimos de la función aquí para no seguir con el POST
+                return;
             }
 
-            // Código para agregar el producto (si no era para eliminar)
             const addResponse = await fetch("http://localhost:3001/api/products", {
                 method: "POST",
                 headers: {
@@ -81,7 +80,7 @@ buttons.forEach(button => {
             });
 
             if (addResponse.ok) {
-                alert(`Producto ${selectedProduct.name} agregado a Mi Lista.`);
+                alert(`Producto "${selectedProduct.name}" agregado a Mi Lista.`);
                 button.textContent = "Eliminar de Mi Lista";
             } else {
                 alert(`Error al agregar el producto: ${addResponse.statusText}`);

@@ -1,0 +1,60 @@
+
+.contact-me{
+    display: grid;
+    width: 800px;
+    gap: 20px;
+    padding-top: 200px;
+    padding-left: 380px;
+}
+
+
+#message{
+    height: 100px;
+    resize: none;
+}
+
+input{
+    height: 30px;
+    padding: 10px;
+}
+
+.submit{
+    margin: auto;
+    width: 150px;
+    height: 60px;
+    color: #fff;
+    font-family: "Oswald";
+    background-color: #000;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:1200px){
+    .contact-me{
+        padding-left: 200px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .contact-me{
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .contact-me{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .contact-me{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .contact-me{
+        padding-left: 50px;
+        width: 400px;
+    }
+}

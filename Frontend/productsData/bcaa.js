@@ -1,0 +1,42 @@
+export const bcaas = [
+    {
+        name: "Optimum Nutrition",
+        image: "./Imagenes/Bcaas/optimum.jpg",
+        rating: 4.2,
+        precio: 699.45,
+        amzLink: "https://www.amazon.com.mx/Optimum-Nutrition-Bcaa-5000-Sabor/dp/B002DYIZIU/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3LGA0EWQVJL9R&dib=eyJ2IjoiMSJ9.C28WLpUqgJmvs2EWQkxDiQtV-Vcs58tp__Lgk9daVXJPt-auEU1UheZ2kvla8hLFPQMJYoUrnA9-rBhh15R3eqlG1kHXzrFPfmU14mdzh-tG5ss-Oz3NdsD5L1VN7lxV1yaOtyJK19HPt-0jPLszrbSgkywn5WFiXqM5NzmSWTR5IawWvyOwnA6MlqCdAPOgdkbz4C0L_InxqBuVfi-dYERmtDLaV_vjG-lKzfuHK2FTTVDMchbJL9XPHbEFdgF2pmHQd75Lo6FKs4AtJwSzAtgbXtt7Kn5dfmZVCxmWTGM7ZXY0-uP1N9jPtBI-kPeem2xnHzFE4gq3rMykA6kivQ6fSGJG3mFA-2aENuUC9hpDgHeUepovOI32JgFUNKlNwpWjT8ADPftG5lK5slNQjzevGKx04-aFXwWRGGWbbqPmxub4KFlBcisiKOqdn6v3.043oFrXhd5ssLlemU70MMH5PL2HvspWYNgzsuc8MCXI&dib_tag=se&keywords=BCAA+5000+Optimum+Nutrition+Sin+Sabor+345+gr&qid=1740346924&sprefix=bcaa+5000+optimum+nutrition+sin+sabor+345+gr%2Caps%2C145&sr=8-3&ufe=app_do%3Aamzn1.fos.de93fa6a-174c-4df7-be7c-5bc8e9c5a71b",
+        gncLink: "https://gnc.com.mx/optimum-nutrition-bcaa-5000-sin-sabor-345-gr.html",
+    },
+    {
+        name: "Birdman",
+        image: "./Imagenes/Bcaas/birdman.jpg",
+        rating: 4.5,
+        precio: 543.91,
+        amzLink: "https://www.amazon.com.mx/Birdman-BCAAs-L-Glutamina-Ratio-BCAA/dp/B08X1BP55T/ref=sr_1_5?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1NFI0BHJOPSQP&dib=eyJ2IjoiMSJ9.M6ipigTiYThM4-KLkMzUcpdfovjzMwuj183nAxQf85xaSatCmnl1oDOYY8CJVhmM-1XPj_DE0EWg0SEEDK0RpevZAZH6DdwEQXH6l8mul7rDrqHqXCr09VCFV591rsVgp2QHHNrY2jiGA8asDNMzRnimDh0ocl0ZDy3THBJX0hBP3dCkHvWGWXL7JkEMVbdYc-gzFy-mjAqiXv7bxDL69zc1acitv4HZZ7lv2O8GF04KkLhd42EOEpRnQZ1Z6m2L5IZlshjd-D-LzoJ4qUNPEFaonSGI0vN5Z5vspC4VAto84TFtyj1ypFLk8t_4QNtowDozyhkbpmZTSLI1vTIS_qhZ0apwbkLcFP_azJi4e63zOhikYeKc9mLNEObBOakR1VcJsNsZjfDwt_Xo9CXn8rabcDMCd01_3T-23VXCjk6kIQpOpxBJ015Q2ntj07_O.Fp9X4vuhtWr6A-UreY1zCejWrQE51u8fv1nH4qlZVnM&dib_tag=se&keywords=bcaa+glutamina+birdman+fresa+405+gramos&qid=1740347169&sprefix=bcaas+glutamina+birdman+fresa+405+gramos%2Caps%2C86&sr=8-5",
+        gncLink: "https://gnc.com.mx/bcaas-glutamina-birdman-fresa-405-gramos.html",
+    },
+    {
+        name: "Mutant",
+        image: "./Imagenes/Bcaas/mutant.jpg",
+        rating: 4.6,
+        precio: 586.38,
+        amzLink: "https://www.amazon.com.mx/BCAA-Mutant-Pineapple-Passion-12-8/dp/B073PB2L9Y/ref=sr_1_4?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1GMHZ89UBE6QI&dib=eyJ2IjoiMSJ9.NNrEnuVx8Dwd8BmH-OfXMp7VvSax4ftY7kIWgQb54FOdu0NCCaCvJO_6C_6kFovMozwi6l8gZ5m8RrMI_6eaplb7gP4CYwYQQf0YZEIC-gSqlP74Ro91A7GevxaF0D_mEargYIeFNPvxOMF-D6BIhm0PTwvWZvTNPdZVS-zB54uUVWxYPIJjxBJZgIybncBcWN-ZMaKRTmraCAjS8rsbzcTX9TTi0enkYOvbAZpEVsadlej33SclR1XxlMZ3QiAJJg3kXgAe2v6A8QQGHwgZLW7ksYbNl3hvUQPV0O60abUL7PVc0YYXBgpP7E1694yqU-D-GK2VxKPQhGkLcB-mKOulvk7Ish5Bl_JLWvXaXXjIdI9ulb8Uf2TA0IMmvgtCUS8cxrKKmwoCViKsNTT2wlVAjtmW0uMNeR-QM_8wnCA4e5orwIPDZdb--znDTWln.oH5tNIwAau2Ry0IWr-3lElb5D_Qfjoqc1Xjkb9k0rSQ&dib_tag=se&keywords=Mutant+BCAA%27s+Ponche+de+Frutas+Fruit+Punch+-+348+Gramos&qid=1740347265&sprefix=mutant+bcaa%27s+ponche+de+frutas+fruit+punch+-+348+gramos%2Caps%2C141&sr=8-4&ufe=app_do%3Aamzn1.fos.de93fa6a-174c-4df7-be7c-5bc8e9c5a71b",
+        gncLink: "https://gnc.com.mx/mutant-bcaa-s-limonada-limon-348-gramos.html",
+    },
+    {
+        name: "XTEND",
+        image: "./Imagenes/Bcaas/xtend.jpg",
+        rating: 4.6,
+        precio: 470.00,
+        amzLink: "https://www.amazon.com.mx/Scivation-Xtend-BCAA-Grape-Servings/dp/B00L9NZFE8/ref=sr_1_5?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3Q4F82EVZ0Q9H&dib=eyJ2IjoiMSJ9.9CNzAuQ1wzu1qVw-10jRRNLTIXbBMpMZmmQlMrn5Svb5UtVScViUhqr0TyjDvnz5fMpCz4lp1TjrWLrWph5Y3DwMoqlQrSvCl2dgzvVWYc-i3WY6_FsieDVrRg7WIt8sXBqFQo1XCY72psaxu43l13Nk11YBldHysZ8D_vSbs0vgnM4rm2m_wPIWu9Yu3cMpTPFlN6cAW9Ba5xIEuNRuDoh-ubttXqXiWoujgNAeLZ6QsFZ51UwLBgaAgWtw9PACtQrZPI6jy3EIY6yTh7joM8ANgDqZcL8KbvB5Uhn1ewVuauZBQncS3cWkIzgdp4NXYiggWqTs0AzjxAWTuSO_Ar0K-3W6fK7Y2aLNgKyBn2HOdwqS2eNPNDXQLHg9VxpsN41D-Oc1aoZinlipf8WjV29y43Xm2FWgaA2Zp4VnZ3yfqSnVkNZIxK_6GJ6WCMu4.wIVqnohnLeFKwA2xtY2Vw_0tj3mCZCp1U0n3fmG8JQQ&dib_tag=se&keywords=bcaa%2Bamino%C3%A1cidos%2Bramificados%2Bxtend%2Buva%2B405%2Bgramos&qid=1740347407&sprefix=bcaas%2Bamino%C3%A1cidos%2Bramificados%2Bxtend%2Buva%2B405%2Bgramos%2Caps%2C157&sr=8-5&ufe=app_do%3Aamzn1.fos.db4f1a57-87f1-43c5-9a39-0cdca6036b57&th=1",
+        gncLink: "https://gnc.com.mx/bcaas-aminoacidos-ramificados-xtend-uva-405-gramos.html",
+    },
+    {
+        name: "Hydro",
+        image: "./Imagenes/Bcaas/hydro.jpg",
+        rating: 4.1,
+        precio: 849.9,
+        amzLink: "https://www.amazon.com.mx/ProSupps-HydroBCAA-espectro-carbohidratos-porciones/dp/B08G1ZRKB8/ref=sr_1_2?crid=1GKVLIQHD6B7I&dib=eyJ2IjoiMSJ9.PwSynslj0Tv2bNytvyOoe_9ZP0BFF6C7LwlRLPuncbj_0gqlnam-V_ZQhVhNRIBadrddeST07nJvDpJqA15CUQ9ve1g-1XUZKl8z8sh_nU_xQsuom7pavweL3c3tzjHnYnhjsVzWK9b2uLr2_CHjTdh4tUfaT3-iiJp7bGOVR48phSrTmyOX2gqgPHQXaM71ZEITENJuLcUTgwVSXq3psr7RyWEHKtbBIrprmWTceP9EkCFKMHLIIhjdN7s35qKS93_C2czbm7C-V76aHMvGChnOBjtPhzaB6N-JOu4Fdh7POsLE6Cd_eg84nUspA5ck5SPxR9tDKx_yN_uZE1cfHOZe5E-ObHS9v7qRfH8jplITiBj49_kJpRjrhM_tuHFQz0zAOjaVsagYbGJAZ9pOoM1ffva6hJTKYQjC53jFulmstv7yfhoJi8m3lLln7osr.P1JZXYGKMo1ZggrBEQvRA5Qmf9ZyqkaGt4wf3_f2RVE&dib_tag=se&keywords=hydro%2Bbcaa&qid=1740347580&sprefix=bcaa%2Bhy%2Caps%2C98&sr=8-2&ufe=app_do%3Aamzn1.fos.de93fa6a-174c-4df7-be7c-5bc8e9c5a71b&th=1",
+        gncLink: "https://gnc.com.mx/hydrobcaa-essentials-aminoacidos-prosupps-sandia-414-gramos.html",
+    },    
+]

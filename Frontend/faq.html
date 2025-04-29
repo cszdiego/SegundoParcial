@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/5e0e3e0aab.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./Imagenes/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="faq.css">
+    <title>Contactanos</title>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="left">
+                <i class="fa-solid fa-bars bars"></i>
+                <div class="navbar-item logo">
+                    <a href="./index.html">
+                        <img src="./Imagenes/Logo.jpg" alt="MySuplementsLogo" class="logo-img">
+                        <h1>MySuplements</h1>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="right">
+                <div class="navbar-item">
+                    <a href="./us.html" class="link">Sobre Nosotros</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="./faq.html" class="link">Contactanos</a>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+
+    <div class="page">
+        <aside class="dismiss aside">
+            <nav class="aside-navbar">
+                <div class="top">
+                    <a href="./index.html">Inicio</a>
+                </div>
+                <div class="mid">
+                    <h2>Categorías</h2>
+                    <a href="./proteinas.html">Proteínas</a>
+                    <a href="./creatina.html">Creatina</a>
+                    <a href="./pre-workout.html">Pre Entreno</a>
+                    <a href="./bcaa.html">Bcaas</a>
+                </div>
+                <div class="bottom">
+                    <a href="./us.html" >Sobre nosotros</a>
+                    <a href="./milista.html" >Mi Lista</a>
+                    <a href="./faq.html">Contactanos</a>
+                </div>
+
+            </nav>
+        </aside>
+
+        <div class="content">
+            <div class="content-item">
+                <form class="contact-me">
+                    <label for="name">Nombre completo</label>
+                    <input type="text" id="name">
+                    <label for="email">Correo electronico</label>
+                    <input type="email" id="email">
+                    <label for="message">Pregunta o Sugerencia</label>
+                    <textarea name="message" id="message"></textarea>
+                    <input type="submit" class="submit" value="Enviar">
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+    <script>
+        const menuAction = document.querySelector(".bars");
+        menuAction.addEventListener("click",()=>{
+            const aside = document.querySelector(".aside");
+            if (!aside.classList.contains("dismiss")){
+                aside.classList.add("dismiss");
+            } else {
+                aside.classList.remove("dismiss");
+            }
+        })
+
+
+    </script>
+
+</body>
+</html>

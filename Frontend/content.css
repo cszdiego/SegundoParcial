@@ -1,0 +1,174 @@
+.content{
+    width: 100dvw;
+    height: 90dvh;
+}
+
+.item1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url("./Imagenes/fondo1.png");
+    background-size: cover;
+}
+
+.item1 p{
+    color: #fff;
+    margin: auto 100px;
+    font-size: 50px;
+}
+
+.img-container{
+    margin: 0 40px;
+    margin-top: 280px;
+    width: 300px;
+    display: flex;
+    position: relative;
+}
+
+.img-container img{
+    width: 100px;
+    height: 140px;
+    filter: drop-shadow(0 0 7px #fff);
+    position: absolute;
+}
+
+#suplement1{
+    z-index: 1;
+    left: -80px;
+    rotate: 350deg;
+    animation-name: levitate2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+#suplement2{
+    width: 200px;
+    top: -90px;
+    height: 220px;
+    z-index: 2;
+    right: 90px;
+    animation-name: levitate;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+#suplement3{
+    z-index: 1;
+    right: 0;
+    rotate: 15deg;
+    animation-name: levitate2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes levitate{
+    0%{
+        top: -90px
+    }
+
+    50%{
+        top: -110px
+    }
+
+    100%{
+        top: -90px;
+    }
+
+}
+
+@keyframes levitate2{
+    0%{
+        top: -10px
+    }
+
+
+    50%{
+        top: -30px
+    }
+
+
+    100%{
+        top: -10px;
+    }
+
+}
+
+.item2{
+    display: grid;
+    padding: 40px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+
+.grid-item:first-child{
+    background-image: url("./Imagenes/prote-scoop.jpg");
+}
+
+.grid-item:nth-child(2){
+    background-image: url("./Imagenes/crea-scoop.jpg");
+}
+
+.grid-item:nth-child(3){
+    background-image: url("./Imagenes/pre-sccop.jpg");
+}
+
+.grid-item:last-child{
+    background-image: url("./Imagenes/vitaminas.jpg");
+}
+
+.grid-item{
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    text-decoration: none;
+}
+
+.grid-item:hover{
+    opacity: 85%;
+}
+
+.grid-item h2{
+    margin: auto;
+    color: #fff;
+}
+
+@media screen and (max-width:1300px) {
+    .img-container{
+        display: none;
+    }
+
+
+    .item1 p{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .img-container{
+        display: none;
+    }
+
+
+    .item1 p{
+        font-size: 40px;
+    }
+
+    .item2{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .img-container{
+        display: none;
+    }
+
+
+    .item1 p{
+        margin-left: 80px;
+    }
+}
